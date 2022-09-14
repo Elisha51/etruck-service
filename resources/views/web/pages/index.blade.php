@@ -24,64 +24,54 @@
     <div class="container-fluid p-0 pb-5">
         <div class="owl-carousel header-carousel position-relative">
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="{{ asset('web/img/carousel-1.jpg') }}" alt="">
+                <img class="img-fluid" src="{{ asset('web/img/truck1.jpg') }}" alt="">
                 <div class="carousel-inner">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 text-center">
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Best CCTV & Security Solution
-                                    For You</h1>
-                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed
-                                    stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Seamless travel with eTruck Services
+                                    </h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Find the best and cheap trucks for shifting households for secure property transportation.</p>
                                 <a href=""
-                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Read
-                                    More</a>
+                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Register</a>
                                 <a href=""
-                                    class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Free
-                                    Quote</a>
+                                    class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Log in</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="{{ asset('web/img/carousel-2.jpg') }}" alt="">
+                <img class="img-fluid" src="{{ asset('web/img/download (7).jpg') }}" alt="">
                 <div class="carousel-inner">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 text-center">
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Smart Security Solution For
-                                    All Business</h1>
-                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed
-                                    stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Smart Seamless Solution For
+                                    Shifting households</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Enjoy your travel moments with eTruck services and please come againg.</p>
                                 <a href=""
-                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Read
-                                    More</a>
+                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Register</a>
                                 <a href=""
-                                    class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Free
-                                    Quote</a>
+                                    class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Log in</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-3.jpg" alt="">
+                <img class="img-fluid" src="{{ asset('web/img/download (6).jpg') }}" alt="">
                 <div class="carousel-inner">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-lg-8 text-center">
                                 <h1 class="display-3 text-white animated slideInDown mb-4">Innovative Solution For
-                                    Security System</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor
-                                    at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea
-                                    elitr.</p>
+                                    all cities and towns in Uganda majorly focusing on Kampala for now</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Over 60% of the people in urban areas rely on renting since they own no permanent households. No worries, etruck services has provided a safe and secure means of property transportation as you shift. Trust us, your safe travel is our priority!</p>
                                 <a href=""
-                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Read
-                                    More</a>
+                                    class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Register</a>
                                 <a href=""
-                                    class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Free
-                                    Quote</a>
+                                    class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Log in</a>
                             </div>
                         </div>
                     </div>
@@ -105,7 +95,7 @@
                             </div>
                             <h1 class="display-1 mb-0" style="color: #000000;">01</h1>
                         </div>
-                        <h5 class="text-white">Home Security</h5>
+                        <h5 class="text-white">Property Safety</h5>
                         <hr class="w-25">
                         <span>Vero elitr justo clita lorem ipsum dolor at sed stet sit diam rebum ipsum et diam justo
                             clita et</span>
