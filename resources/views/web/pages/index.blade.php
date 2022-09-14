@@ -32,9 +32,9 @@
                                 <h1 class="display-3 text-white animated slideInDown mb-4">Seamless travel with eTruck Services
                                     </h1>
                                 <p class="fs-5 text-white mb-4 pb-2">Find the best and cheap trucks for shifting households for secure property transportation.</p>
-                                <a href=""
+                                <a href="{{ url('/register') }}"
                                     class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Register</a>
-                                <a href=""
+                                <a href="{{ url('/login') }}"
                                     class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Log in</a>
                             </div>
                         </div>
@@ -50,9 +50,9 @@
                                 <h1 class="display-3 text-white animated slideInDown mb-4">Smart Seamless Solution For
                                     Shifting households</h1>
                                 <p class="fs-5 text-white mb-4 pb-2">Enjoy your travel moments with eTruck services and please come againg.</p>
-                                <a href=""
+                                <a href="{{ url('/register') }}"
                                     class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Register</a>
-                                <a href=""
+                                <a href="{{ url('/login') }}"
                                     class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Log in</a>
                             </div>
                         </div>
@@ -72,9 +72,9 @@
                                 <h1 class="display-3 text-white animated slideInDown mb-4">Innovative Solution For Ugandan shifters
                                     </h1>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2">Over 60% of the people in urban areas rely on renting since they own no permanent households. No worries, etruck services has provided a safe and secure means of property transportation as you shift. Trust us, your safe travel is our priority!</p>
-                                <a href=""
+                                <a href="{{ url('/register') }}"
                                     class="btn btn-primary rounded-pill py-md-3 px-md-5 me-3 animated slideInLeft">Register</a>
-                                <a href=""
+                                <a href="{{ url('/login') }}"
                                     class="btn btn-light rounded-pill py-md-3 px-md-5 animated slideInRight">Log in</a>
                             </div>
                         </div>
