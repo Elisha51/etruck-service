@@ -17,3 +17,6 @@ use App\Http\Controllers\WebsiteController;
 
 Route::get('/', [WebsiteController::class, 'index']);
 Route::get('/home', [WebsiteController::class, 'dashboard']);
+Route::get('/login', [WebsiteController::class, 'loginPage']);
+Route::get('/register', [WebsiteController::class, 'registerPage']);
+

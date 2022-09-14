@@ -14,4 +14,12 @@ class WebsiteController extends Controller
     {
         return view('admin.pages.index');
     }
+
+    public function loginPage(){
+        return view('admin.pages.login');
+    }
+
+    public function registerPage(){
+        return view('admin.pages.register');
+    }
 }
