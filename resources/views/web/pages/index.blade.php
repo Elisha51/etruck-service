@@ -66,7 +66,7 @@
                 </div>
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-3.jpg" alt="">
+                <img class="img-fluid" src="{{ asset('web/img/carousel-3.jpg') }}" alt="">
                 <div class="carousel-inner">
                     <div class="container">
                         <div class="row justify-content-center">
