@@ -9,6 +9,7 @@
                         <div class="d-flex align-items-end row">
                             <div class="col-sm-7">
                                 <div class="card-body">
+                                    <img src = "{{  asset('web/img/truck1')  }}" alt="">
                                     <h5 class="card-title text-primary">Truck No: {{ $truck->truck_number }}</h5>
                                     <p class="mb-4">
                                         Plate number is <span class="fw-bold">{{ $truck->plate_number }}</span>
