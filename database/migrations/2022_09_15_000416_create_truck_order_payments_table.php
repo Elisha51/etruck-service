@@ -13,12 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('trucks', function (Blueprint $table) {
+        Schema::create('truck_order_payments', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('driver_id')->constrained('users')->onUpdate('cascade')->onDelete('cascade');
-            $table->text('image_path')->nullable();
-            $table->string('truck_number');
-            $table->string('plate_number');
+            $table->foreignId('truck_order_id')->constrained('truck_orders')->onUpdate('cascade')->onDelete('cascade');
+            $table->string('amount_paid');
+            $table->string('currency');
+            $table->string('transaction_id');
+            $table->text('details');
             $table->timestamps();
         });
     }
@@ -30,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('trucks');
+        Schema::dropIfExists('truck_order_payments');
     }
 };

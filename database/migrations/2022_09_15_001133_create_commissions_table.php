@@ -13,12 +13,12 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('trucks', function (Blueprint $table) {
+        Schema::create('commissions', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('driver_id')->constrained('users')->onUpdate('cascade')->onDelete('cascade');
-            $table->text('image_path')->nullable();
-            $table->string('truck_number');
-            $table->string('plate_number');
+            $table->foreignId('payment_id')->constrained('truck_order_payments')->onUpdate('cascade')->onDelete('cascade');
+            $table->string('percentage');
+            $table->string('amount');
+            $table->string('currency');
             $table->timestamps();
         });
     }
@@ -30,6 +30,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('trucks');
+        Schema::dropIfExists('commissions');
     }
 };
